@@ -1,4 +1,4 @@
-26173625794718162
+26177161516913477
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104160,6 +104160,13 @@ Varistor VF
 2
 2
 minickts_kicad
+Mini-Circuits_A01
+
+
+0
+0
+0
+minickts_kicad
 Mini-Circuits_BK377
 Footprint for Mini-Circuits case BK377 (https://ww2.minicircuits.com/case_style/BK276.pdf)
 Mini-circuits BK377
@@ -104383,3 +104390,10 @@ QFN-8_EP_2x2_Pitch0.5mm
 0
 25
 9
+minickts_kicad
+Untitled
+
+
+0
+0
+0
