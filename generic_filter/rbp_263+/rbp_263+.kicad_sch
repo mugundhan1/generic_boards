@@ -5207,7 +5207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND2"
 			(at 243.078 152.146 0)
 			(effects
 				(font
@@ -5619,7 +5619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "minickts_kicad:Mini-Circuits_HF1139_LandPatternPL-230"
+		(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_HF1139"
 			(at 106.68 50.8 0)
 			(effects
 				(font
@@ -6349,6 +6349,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 154.94 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37046f21-e4ad-480e-9097-0c7b42453af8")
+		(property "Reference" "#PWR057"
+			(at 154.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f043bcc2-cd12-4956-a953-b5098cb0f3cf")
+		)
+		(instances
+			(project "rbp_263+"
+				(path "/853aca7e-cbc0-4437-9dd1-d65fc429a4f3"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 256.54 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7015,6 +7081,72 @@
 			(project ""
 				(path "/853aca7e-cbc0-4437-9dd1-d65fc429a4f3"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "472ad1f4-c02f-43ae-9481-02feda0768fa")
+		(property "Reference" "#PWR056"
+			(at 132.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9497188-dc34-4a7a-b51b-197be3308905")
+		)
+		(instances
+			(project "rbp_263+"
+				(path "/853aca7e-cbc0-4437-9dd1-d65fc429a4f3"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -13721,7 +13853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOD882_LTF"
+		(property "Footprint" "SP3021:SOD882_LTF"
 			(at 256.54 99.06 0)
 			(effects
 				(font
